@@ -1,8 +1,8 @@
 "use strict";
 
-var API_URL = process.env.COSMIC_API_URL || 'https://api.cosmicjs.com';
-var UPLOAD_API_URL = process.env.UPLOAD_API_URL || 'https://upload.cosmicjs.com';
-var API_VERSION = process.env.COSMIC_API_VERSION || 'v2';
+var API_URL = 'https://api.cosmicjs.com';
+var UPLOAD_API_URL = 'https://upload.cosmicjs.com';
+var API_VERSION = 'v2';
 var URI = "".concat(API_URL, "/").concat(API_VERSION);
 module.exports = {
   API_URL: API_URL,
